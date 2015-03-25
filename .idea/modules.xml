@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SM100.iml" filepath="$PROJECT_DIR$/SM100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartMist/SmartMist.iml" filepath="$PROJECT_DIR$/SmartMist/SmartMist.iml" />
+    </modules>
+  </component>
+</project>
+

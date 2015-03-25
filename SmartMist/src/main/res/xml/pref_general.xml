@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General"
+        android:key="general_category">
+
+        <EditTextPreference
+            android:key="dname"
+            android:title="Device Name"
+            android:summary="Descriptive device name"
+            android:dialogTitle="Name"
+            android:dialogMessage="Enter a device name"
+            android:defaultValue="Home" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Connection Setup"
+        android:key="connection_setup">
+
+        <EditTextPreference
+            android:key="ip"
+            android:title="Device IP"
+            android:summary="Connected device IP address"
+            android:dialogTitle="IP"
+            android:dialogMessage="Enter a valid IP address"
+            android:defaultValue="192.168.0.200" />
+
+        <EditTextPreference
+            android:key="port"
+            android:title="Device port"
+            android:summary="Device IP port, do not change"
+            android:dialogTitle="IP PORT"
+            android:dialogMessage="IP Port, do not change"
+            android:defaultValue="502" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

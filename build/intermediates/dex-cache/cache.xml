@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\classes-ffe67e2a09ce27999c81afd96706a8b77c589063.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\classes-af8a99ec53ac2588243e3bdf960541ce6fc791a8.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b1899ce92fc8562585a1757128242e73cfba9ac8.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e8c06a7aad26ba8d2d5cab8134556594fe36856">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\classes-6a4c21cde5cc97dbe3d4f6b72ad1f4be2852d986.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\classes-09fd86cae3bb1f7263b552602bdef4b5ffb93419.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-41e9ab764a839895477ed9997b46bd75667f6f3a.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\classes-d98ed24b43d42c0dbfc51f00bfee05cac33756f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Johan Russouw\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Development\AndroidStudioProjects\SM100\SmartMist\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-7598446c8cb9b37eeddb9a594923914d6a348e57.jar" />
+    </item>
+
+</items>
