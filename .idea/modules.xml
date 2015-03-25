@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SM100.iml" filepath="$PROJECT_DIR$/SM100.iml" />
       <module fileurl="file://$PROJECT_DIR$/SmartMist/SmartMist.iml" filepath="$PROJECT_DIR$/SmartMist/SmartMist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartMistMobile.iml" filepath="$PROJECT_DIR$/SmartMistMobile.iml" />
     </modules>
   </component>
 </project>
