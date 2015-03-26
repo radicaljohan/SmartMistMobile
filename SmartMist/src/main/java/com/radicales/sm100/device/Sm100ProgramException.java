@@ -17,7 +17,7 @@
 package com.radicales.sm100.device;
 
 /**
- * Watering Sequence Object
+ * Smart Mist 100 Watering Program Exception
  *
  * @author
  * Jan Zwiegers,
@@ -28,23 +28,10 @@ package com.radicales.sm100.device;
  * <b>1.0 01/11/2014</b><br>
  * Original release.
  */
-public class Sequence {
+public class Sm100ProgramException extends RuntimeException {
 
-    public Sm100Zone Zone;
-    public int RunTime;
-
-    public Sequence( Sm100Zone zone, int runtime ) {
-        Zone = zone;
-        RunTime = runtime;
-    }
-
-    @Override
-    public String toString() {
-        if(Zone != null) {
-            return Zone.getName() + " - On Time: " + Integer.toString(RunTime) + " minutes";
-        }
-
-        return "Unknown Zone [" + Integer.toString(RunTime) + "]";
+    public Sm100ProgramException( String Message ) {
+        super(Message);
     }
 
 }

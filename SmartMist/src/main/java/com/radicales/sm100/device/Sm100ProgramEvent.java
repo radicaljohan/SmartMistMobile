@@ -16,8 +16,10 @@
  */
 package com.radicales.sm100.device;
 
+import java.util.List;
+
 /**
- * Watering Sequence Object
+ * Smart Mist 100 Watering Program Events Interface
  *
  * @author
  * Jan Zwiegers,
@@ -28,23 +30,6 @@ package com.radicales.sm100.device;
  * <b>1.0 01/11/2014</b><br>
  * Original release.
  */
-public class Sequence {
-
-    public Sm100Zone Zone;
-    public int RunTime;
-
-    public Sequence( Sm100Zone zone, int runtime ) {
-        Zone = zone;
-        RunTime = runtime;
-    }
-
-    @Override
-    public String toString() {
-        if(Zone != null) {
-            return Zone.getName() + " - On Time: " + Integer.toString(RunTime) + " minutes";
-        }
-
-        return "Unknown Zone [" + Integer.toString(RunTime) + "]";
-    }
-
+public interface Sm100ProgramEvent {
+    void eventStartListChanged( Sm100Program Program, List<StartTime> StartTimeList );
 }

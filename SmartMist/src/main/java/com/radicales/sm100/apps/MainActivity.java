@@ -4,6 +4,7 @@ import com.radicales.sm100.device.Sm100;
 import com.radicales.sm100.device.Sm100Event;
 import com.radicales.sm100.device.Sm100Program;
 import com.radicales.sm100.device.Sm100Zone;
+import com.radicales.sm100.device.StartTime;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -308,7 +309,7 @@ public class MainActivity extends android.app.Activity implements  Sm100Event,Co
             mSm100 = new Sm100(name, ip, port, true);
         }
         else {
-            mSm100.setIpAddress(ip,port);
+          //TODO  mSm100.setIpAddress(ip,port);
         }
         mSm100.registerEventListener(this);
         sm100Control_async = new Sm100Control_async();
@@ -400,11 +401,13 @@ public class MainActivity extends android.app.Activity implements  Sm100Event,Co
 
     @Override
     public void eventProgramConfig(Sm100Program Program) {
-
     }
 
     @Override
-    public void eventProgramUpdate(List<Sm100Program> Programs) {
+    public     void eventProgramStartTimesUpdate( Sm100Program Program, List<StartTime> StartTimesList ) {}
+
+    @Override
+    public void eventProgramsUpdate(List<Sm100Program> Programs) {
         Log.i("eventProgramUpdate",Tag);
         mProgNames = new String[Programs.size()];
         for(int i=0; i<mProgNames.length; i++) {
@@ -416,7 +419,7 @@ public class MainActivity extends android.app.Activity implements  Sm100Event,Co
     }
 
     @Override
-    public void eventZoneUpdate(List<Sm100Zone> Zones) {
+    public void eventZonesUpdate(List<Sm100Zone> Zones) {
         Log.i("eventZoneUpdate",Tag);
     }
 
@@ -426,8 +429,18 @@ public class MainActivity extends android.app.Activity implements  Sm100Event,Co
         //TODO fix with message
         UpdateGUI(1,Message);
     }
+
     @Override
     public void eventInformation( String Name, String Family, String Revision, int Channels ){}
+
+    /*
+    @Override
+    public void eventProgramList( String[] Names ) {}
+
+    @Override
+    public void eventProgramConfig( Sm100Program Program ) {}
+*/
+
     @Override
     public void eventDataTime( Date Time ){
         //Date/time from the device, let display it
